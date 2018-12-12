@@ -50,7 +50,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'csdojo.urls'
+ROOT_URLCONF = 'SimpleTodo.urls'
 
 TEMPLATES = [
     {
@@ -68,7 +68,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'csdojo.wsgi.application'
+WSGI_APPLICATION = 'SimpleTodo.wsgi.application'
 
 
 # Database
